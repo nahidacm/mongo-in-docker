@@ -2,7 +2,7 @@
 
 ## Create mongo user
 
-
+```javascript
 db.createUser({
   user: "admin",
   pwd: "localadminpass",
@@ -12,8 +12,8 @@ db.createUser({
             { role: "dbAdminAnyDatabase",   db: "admin" }
          ]
 });
-
-
+```
+```javascript
 db.createUser({
   user: "pmsusr",
   pwd: "pmspwdpass",
@@ -22,5 +22,5 @@ db.createUser({
             { role: "dbAdmin",   db: "pms-360" },
             { role: "readWrite", db: "pms-360" }
          ]
-});`
-`
+});
+```
