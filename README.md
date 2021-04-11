@@ -24,3 +24,7 @@ db.createUser({
          ]
 });
 ```
+
+## Connection string
+
+`mongodb://admin:localadminpass@localhost:28018/maasranga?authSource=admin&readPreference=primary&ssl=false`
