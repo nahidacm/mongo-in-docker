@@ -1,4 +1,9 @@
 # Mongo Chatsheet
+## Get into the container
+`docker exec -it mongodb /bin/bash`
+
+## Then get into mongodb console
+`mongodb`
 
 ## Create mongo user
 
