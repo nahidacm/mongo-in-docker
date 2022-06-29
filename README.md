@@ -5,7 +5,10 @@
 ## Then get into mongodb console
 `mongodb`
 
-## Create mongo user
+## Switch database
+`use admin`
+
+## Create mongo admin user
 
 ```javascript
 db.createUser({
