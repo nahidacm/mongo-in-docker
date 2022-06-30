@@ -1,4 +1,9 @@
 # Mongo Chatsheet
+
+## Git Clone
+`git clone git@github.com:nahidacm/mongo-in-docker.git`
+`cd mongo-in-docker`
+
 ## Get into the container
 `docker exec -it mongodb /bin/bash`
 
