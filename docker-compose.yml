@@ -7,8 +7,10 @@ services:
     - PUID=1000
     - PGID=1000
     volumes:
-    - /home/barry/mongodb/database:/data/db
+    - mongodb-data:/data/db
     command: [--auth]
     ports:
-    - 28018:27017
+    - 27017:27017
     restart: unless-stopped
+volumes:
+  mongodb-data:
