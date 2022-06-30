@@ -44,3 +44,7 @@ db.createUser({
 ## Connection string
 
 `mongodb://admin:localadminpass@localhost:27017/maasranga?authSource=admin&readPreference=primary&ssl=false`
+
+## Mongodb cheatsheet
+https://github.com/nahidacm/mongo-db-cheat-sheet
+
