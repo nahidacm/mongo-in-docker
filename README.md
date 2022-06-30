@@ -4,6 +4,8 @@
 `git clone https://github.com/nahidacm/mongo-in-docker.git`
 
 `cd mongo-in-docker`
+## Start the docker container
+`docker-compose up -d`
 
 ## Get into the container
 `docker exec -it mongodb /bin/bash`
