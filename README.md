@@ -11,7 +11,7 @@
 `docker exec -it mongodb /bin/bash`
 
 ## Then get into mongodb console
-`mongodb`
+`mongo`
 
 ## Switch database
 `use admin`
