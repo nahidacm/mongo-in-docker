@@ -1,7 +1,7 @@
 # Mongo Chatsheet
 
 ## Git Clone
-`git clone git@github.com:nahidacm/mongo-in-docker.git`
+`git clone https://github.com/nahidacm/mongo-in-docker.git`
 
 `cd mongo-in-docker`
 
